@@ -74,6 +74,10 @@
   align-items: center;
   align-content: center;
 }
+.hv:hover {
+  background-color: white;
+  opacity: 0.8;
+}
 .box1 {
   background-image: url(1.png);
 }
@@ -104,15 +108,12 @@
     8px 8px rgba(31, 114, 170, 0.46);
   text-shadow: rgb(43, 42, 42) 4px 8px 7px;
 }
-.a.ex1:hover .a.ex1:active {
-  background: white;
-}
 
 /* sssssssssss */
 .roadmap {
   background-image: url(Roadmap\ image.png);
   background-size: cover;
-  height: 100vh;
+  height: 120vh;
 }
 .head {
   text-align: center;
@@ -180,22 +181,128 @@
 .box:hover {
   border: 5px solid white;
 }
-.box:hover + .zurag {
+.box:hover + .zurag11 {
   display: block;
 }
-/* .column{display: flex; flex-direction:column} */
-.img {
-  height: 14px;
-  width: 14px;
-}
-.zurag {
-  width: 60px;
-  height: 60px;
+.zurag11 {
+  width: 100px;
+  height: 100px;
   position: absolute;
-  left: 1900px;
+  left: 1818px;
   top: 600px;
   display: none;
 }
+.box:hover + .zurag22 {
+  display: block;
+}
+.zurag22 {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 1500px;
+  top: 600px;
+  display: none;
+}
+.box:hover + .zurag33 {
+  display: block;
+}
+.zurag33 {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 1300px;
+  top: 600px;
+  display: none;
+}
+.box:hover + .zurag44 {
+  display: block;
+}
+.zurag44 {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 1100px;
+  top: 600px;
+  display: none;
+}
+.box:hover + .zurag55 {
+  display: block;
+}
+.zurag55 {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 900px;
+  top: 600px;
+  display: none;
+}
+
+.box + .zurag1 {
+  display: block;
+}
+
+.zurag1 {
+  width: 47px;
+  height: 47px;
+  position: absolute;
+  left: 1818px;
+  top: 600px;
+  /* display: none; */
+}
+.box + .zurag2 {
+  display: block;
+}
+
+.zurag2 {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  left: 800px;
+  top: 600px;
+  display: none;
+}
+.box + .zurag3 {
+  display: block;
+}
+.zurag3 {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  left: 700px;
+  top: 600px;
+  display: none;
+}
+.box + .zurag4 {
+  display: block;
+}
+.zurag4 {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  left: 600px;
+  top: 600px;
+  display: none;
+}
+.box + .zurag5 {
+  display: block;
+}
+/* .box:hover + .zurag5 {
+  display: block;
+  
+} */
+.zurag5 {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  left: 500px;
+  top: 600px;
+  display: none;
+}
+.img {
+  height: 14px;
+  width: 14px;
+} /* .column{display: flex; flex-direction:column} */
+
 .day {
   width: 52;
   height: 52;
@@ -220,3 +327,7 @@
 .box3.5 {
 }
 .ct {border: ;} */
+.footer {
+  background-image: url(Price&Footer\ image.png);
+  height: 100vh;
+}
