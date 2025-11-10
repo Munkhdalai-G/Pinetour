@@ -363,10 +363,11 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  align-content: center;
+
   gap: 24px;
   padding-top: 80px;
 }
+
 .save1 {
   border-radius: 40px;
   background-color: rgba(250, 251, 252, 1);
@@ -381,6 +382,7 @@
   height: 527px;
   opacity: 1;
 }
+
 .save3 {
   border-radius: 40px;
   background-color: rgba(250, 251, 252, 1);
@@ -394,6 +396,45 @@
   opacity: 1;
   gap: 10px;
 }
+.t {
+  width: 141;
+  height: 22;
+  font-size: 18px;
+}
+.price {
+  width: 336;
+  height: 290;
+  gap: 32px;
+  padding-top: 8;
+  padding-right: 24px;
+  padding-bottom: 24px;
+  padding-left: 24px;
+}
+.includes {
+  width: 336;
+  height: 180;
+}
+.haha {
+  width: 336;
+  height: 34;
+  gap: 20;
+}
+.inc {
+  height: 22;
+  font-weight: 500;
+  font-size: 18px;
+  vertical-align: bottom;
+  gap: 10px;
+  opacity: 1;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+.M {
+  width: 336;
+  height: 78;
+  gap: 10px;
+}
+
 .zurh1 {
   width: 384;
   height: 92;
@@ -406,6 +447,40 @@
   padding-left: 24px;
   display: flex;
   align-items: center;
+}
+.W {
+  width: 336;
+  height: 49;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 40px;
+  vertical-align: bottom;
+}
+.h-h {
+  font-family: Inter;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 16px;
+  color: rgba(145, 145, 145, 1);
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 336;
+  height: 27;
+  gap: 10px;
+}
+.pop {
+  width: 91;
+  height: 27;
+  gap: 10px;
+  border-radius: 200px;
+  background-color: rgba(105, 114, 181, 1);
+  padding-top: 4px;
+  padding-right: 16px;
+  padding-bottom: 4px;
+  padding-left: 16px;
 }
 .zurh2 {
   width: 384;
@@ -436,5 +511,33 @@
 .check {
   width: 20;
   height: 20;
+}
+.haha {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 24px;
+  font-family: Inter;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: bottom;
+}
+.hha {
+  display: flex;
+  height: 133px;
+  justify-content: center;
+  align-items: center;
+}
+.button {
+  width: 336;
+  height: 48;
   opacity: 1;
+  border-radius: 200px;
+  background-color: rgba(164, 209, 226, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
