@@ -4,17 +4,19 @@
   box-sizing: border-box;
 }
 
-.container {
-  width: 1120px;
+/* .container {
+  width: 1440px;
   margin: 0 auto;
-}
+} */
 
 .hero {
   background-image: url(HeroImage.png);
-  height: 100vh;
+  height: 773;
   background-size: cover;
   background-position: center;
   color: white;
+  width: 1440px;
+  margin: 0 auto;
 }
 
 .start {
@@ -24,7 +26,7 @@
 .mid {
   display: flex;
   justify-content: space-evenly;
-  gap: 24px;
+  gap: 70px;
   font-family: "Inter", sans-serif;
   font-size: 18px;
   font-weight: 600;
@@ -40,17 +42,23 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 80vh;
+  height: 80%;
   flex-direction: column;
 }
 .op1 {
   opacity: 72%;
-  font-size: 80px;
+  font-size: 70px;
   font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: bottom;
+  text-transform: uppercase;
 }
 .op2 {
   opacity: 98%;
-  font-size: 250px;
+  font-size: 180px;
   font-family: "Bebas Neue", sans-serif;
 }
 .op3 {
@@ -66,15 +74,22 @@
   justify-content: space-between;
   align-items: center;
   height: 100px;
+  width: 1440;
+  padding-right: 118px;
+  padding-left: 118px;
 }
 /* ssssssssss */
 .location {
-  height: 70vh;
   background-image: url(Location\ image.png);
   display: flex;
   justify-content: space-around;
   align-items: center;
   align-content: center;
+  margin: 0 auto;
+  padding-right: 80;
+  padding-left: 80;
+  width: 1440;
+  height: 500;
 }
 .overlay:hover {
   background-color: rgb(0, 0, 0, 0.25);
@@ -104,10 +119,9 @@
   height: 370px;
   width: 275.49px;
   border-radius: 40px;
-  color: white;
+  color: rgba(253, 253, 254, 0.8);
   font-family: "Bebas Neue", sans-serif;
-  font-size: 37px;
-  gap: 10px;
+  font-size: 32px;
   text-align: center;
   background-size: cover;
   box-shadow: 8px 8px rgba(41, 114, 139, 0.25),
@@ -116,32 +130,39 @@
 }
 
 /* sssssssssss */
-.roadmap {
-  background-image: url(Roadmap\ image.png);
 
+.roadmap-bg {
+  width: 1440px;
+  height: 1020px;
+  margin: 0 auto;
+  background-position: center;
   background-size: cover;
-  width: 2240px;
-  height: 1420px;
-  background-repeat: no-repeat;
+  background-image: url(Roadmap\ image.png);
 }
 
 .head {
   text-align: center;
-  padding-top: 260px;
+  padding-top: 100px;
   display: flex;
   justify-content: center;
   flex-direction: column;
+  width: 1442;
+
+  top: 120px;
+  left: -1px;
+  gap: 10px;
+  height: 204;
 }
 .size {
-  font-size: 42px;
-  font-family: Inter;
+  font-size: 52px;
+  font-family: "Inter";
   font-weight: 600;
   font-style: Bold;
   text-align: center;
 }
 .size1 {
-  font-size: 20px;
-  font-family: Inter;
+  font-size: 30px;
+  font-family: "Inter";
   font-weight: 500;
   font-style: Medium;
   text-transform: capitalize;
@@ -158,12 +179,13 @@
 .boxes {
   display: flex;
   flex-direction: column;
-  gap: 40px;
-  padding-left: 120px;
-  padding-bottom: 30px;
-  padding-right: 30px;
-  padding-top: 170px;
+  gap: 20px;
   position: relative;
+  width: 1200;
+  height: 640;
+  justify-content: space-between;
+  top: 70px;
+  left: 120px;
 }
 .box {
   width: 513;
@@ -206,54 +228,54 @@
 }
 .zurag11 {
   position: absolute;
-  left: 1627px;
-  top: 193px;
+  left: 879px;
+  top: 13px;
   display: none;
-  width: 380;
-  height: 380;
+  width: 330;
+  height: 330;
 }
 .box:hover + .zurag22 {
   display: block;
 }
 .zurag22 {
   position: absolute;
-  left: 1313px;
-  top: 44px;
+  left: 663px;
+  top: -82px;
   display: none;
-  width: 380;
-  height: 380;
+  width: 330;
+  height: 330;
 }
 .box:hover + .zurag33 {
   display: block;
 }
 .zurag33 {
-  width: 380px;
-  height: 380px;
+  width: 330px;
+  height: 330px;
   position: absolute;
-  left: 1079px;
-  top: 232px;
+  left: 571px;
+  top: 66px;
   display: none;
 }
 .box:hover + .zurag44 {
   display: block;
 }
 .zurag44 {
-  width: 380px;
-  height: 380px;
+  width: 330px;
+  height: 330px;
   position: absolute;
-  left: 1050px;
-  top: -57px;
+  left: 520px;
+  top: -120px;
   display: none;
 }
 .box:hover + .zurag55 {
   display: block;
 }
 .zurag55 {
-  width: 380px;
-  height: 380px;
+  width: 330px;
+  height: 330px;
   position: absolute;
-  left: 909px;
-  top: 575px;
+  left: 650px;
+  top: -130px;
   display: none;
 }
 
@@ -262,57 +284,49 @@
 }
 
 .zurag1 {
-  width: 47px;
-  height: 47px;
+  width: 35px;
+  height: 35px;
   position: absolute;
-  left: 1818px;
-  top: 360px;
+  left: 1047px;
+  top: 160px;
 }
 .box + .zurag2 {
   display: block;
 }
 
 .zurag2 {
-  width: 47px;
-  height: 47px;
+  width: 35px;
+  height: 35px;
   position: absolute;
-  left: 1480px;
-  top: 170px;
+  left: 810px;
+  top: 30px;
 }
 .box + .zurag3 {
   display: block;
 }
 .zurag3 {
-  width: 47px;
-  height: 47px;
+  width: 35px;
+  height: 35px;
   position: absolute;
-  left: 1190px;
-  top: 350px;
+  left: 670px;
+  top: 170px;
 }
 .box + .zurag4 {
   display: block;
 }
 .zurag4 {
-  width: 47px;
-  height: 47px;
+  width: 35px;
+  height: 35px;
   position: absolute;
-  left: 600px;
-  top: 600px;
+  left: 830px;
+  top: 420px;
 }
-.box + .zurag5 {
-  display: block;
-}
+
 /* .box:hover + .zurag5 {
   display: block;
   
 } */
-.zurag5 {
-  width: 47px;
-  height: 47px;
-  position: absolute;
-  left: 1100px;
-  top: 750px;
-}
+
 .img {
   height: 14px;
   width: 14px;
@@ -344,7 +358,9 @@
 .ct {border: ;} */
 .footer {
   background-image: url(Price&Footer\ image.png);
-  height: 100vh;
+  width: 1440;
+  height: 1120;
+  margin: 0 auto;
 }
 .tolgoi {
   display: flex;
@@ -562,13 +578,13 @@
   padding-left: 4px;
   padding-top: 25px;
   padding-bottom: 18;
-  font-family: Inter;
+  font-family: "Inter";
   font-weight: 500;
   font-style: Medium;
-  font-size: 14px;
+  font-size: 17px;
   width: 360;
   height: 10;
-  opacity: 60%;
+  opacity: 70%;
 }
 .hha {
   display: flex;
@@ -594,7 +610,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 240;
-  padding-left: 500;
-  padding-right: 500;
+  width: 1440;
+  height: 204;
+  top: 916px;
+  padding-top: 280px;
+  padding-right: 120px;
+  padding-bottom: 80px;
+  padding-left: 120px;
+  gap: 10px;
+  border-top-width: 1px;
 }
